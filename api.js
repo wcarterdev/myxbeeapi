@@ -60,6 +60,7 @@ app.get('/light_toggle', function(req, res) {
   res.end("success");
 })
 
+//write cool setpoint to thermostat
 app.post('/setCoolPoint', function(req, res) {
   console.log('---REQUEST BODY---');
   console.log(req.body);
